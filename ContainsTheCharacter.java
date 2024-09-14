@@ -22,5 +22,12 @@ public class ContainsTheCharacter {
         System.out.println(newStringArray[i]);
       }
 
+      for(String s: newStringArray){
+        if(s.indexOf(charInput) >= 0){
+            System.out.print(s + ",");
+        }
+      }
+      System.out.println();
+      scnr.close();
    }
 }
